@@ -348,7 +348,7 @@
         } );
         
         // Load Screen
-        $(document).ready(function() {
+        $(window).bind('load', function() {
             setTimeout(function(){
                 $('body').addClass('loaded');
                 $('h1').css('color','#222222');

@@ -126,6 +126,22 @@
 
                     <!-- Row 2 -->
                     <div class="col s12 l3">
+                        <!-- Soguns Lament -->
+                        <div class="card"><div class="card-image">
+                            <img class="activator" src="images/soguns-lament-01.jpg">
+                                <span class="card-title activator white-text">Sogun's Lament<i class="material-icons right">reorder</i></span>
+                            </div>
+                            <div class="card-reveal">
+                                <span class="card-title grey-text text-darken-4">Sogun's Lament<i class="material-icons right">close</i></span>
+                                <p>
+                                    <blockquote><i>"The palace of Asura, who plots to overthrow of the Earthen Realm from upon an icy throne."</i></blockquote>
+                                    <center><a class="btn disabled">Read more</a></center>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+    
+                    <div class="col s12 l3">
                         <!-- Sundered Nexus -->
                         <div class="card"><div class="card-image">
                             <img class="activator" src="images/sundered-nexus-01.jpg">
@@ -150,21 +166,6 @@
                                 <span class="card-title grey-text text-darken-4">Heaven's Mandate<i class="material-icons right">close</i></span>
                                 <p>
                                     <blockquote><i>"An altar constructed by Jinsoyun's followers for the Divine Mandate Ritual, an ancient ceremony used to confirm the rightful emporer."</i></blockquote>
-                                    <center><a class="btn disabled">Read more</a></center>
-                                </p>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col s12 l3">
-                        <!-- Soguns Lament -->
-                        <div class="card"><div class="card-image">
-                            <img class="activator" src="images/soguns-lament-01.jpg">
-                                <span class="card-title activator white-text">Sogun's Lament<i class="material-icons right">reorder</i></span>
-                            </div>
-                            <div class="card-reveal">
-                                <span class="card-title grey-text text-darken-4">Sogun's Lament<i class="material-icons right">close</i></span>
-                                <p>
-                                    <blockquote><i>"The palace of Asura, who plots to overthrow of the Earthen Realm from upon an icy throne."</i></blockquote>
                                     <center><a class="btn disabled">Read more</a></center>
                                 </p>
                             </div>
@@ -245,12 +246,11 @@
         } );
         
         // Load Screen
-        $(document).ready(function() {
+        $(window).bind('load', function() {
             setTimeout(function(){
                 $('body').addClass('loaded');
                 $('h1').css('color','#222222');
             });
-
         });
     </script>
 </body>
