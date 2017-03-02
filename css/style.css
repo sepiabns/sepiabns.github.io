@@ -465,6 +465,10 @@ h1 {
 .card-group {
     display: flex;
 }
+.card-group .card {
+    width: 100%;
+    background-color: #f5f5f5;
+}
 
 @media screen and (max-width: 992px){
     .card-group {
