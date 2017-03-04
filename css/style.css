@@ -505,13 +505,12 @@ h1 {
     background-image: url(../damons-stuff/iu-editted.jpg);
     background-size: cover;
     background-position: center center;
-    filter: brightness(0.9);
-    transition: all 0.3s ease-out;
+    filter: brightness(.92);
+    transition: 200ms filter linear;
 }
-
 .bg-img:hover {
     filter: brightness(1);
-    transition: all 0.3s ease-out;
+    transition: 200ms filter linear;
 }
 
 /* Misc.
